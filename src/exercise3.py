@@ -51,7 +51,7 @@ for ax, L, w in zip(axes.flat, lambdas, weights):
     ax.grid(True)
 
 plt.tight_layout()
-plt.savefig("exercise3_weights.png")
+plt.savefig("results/exercise3_weights.png")
 plt.close()
 
 print("\nPlot saved as exercise3_weights.png")

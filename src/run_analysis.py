@@ -109,5 +109,5 @@ for dataset_name, (X, Y) in datasets.items():
     plt.xticks(training_sizes)
     plt.legend()
     plt.grid(True)
-    plt.savefig(f"dataset_{dataset_name}_accuracy.png")
+    plt.savefig(f"results/dataset_{dataset_name}_accuracy.png")
     plt.close()
