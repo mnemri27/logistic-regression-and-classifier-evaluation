@@ -1,0 +1,20 @@
+[project]
+name = "assignment3py"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mnemri27", email = "mohnemri.mn@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "mixed-naive-bayes>=0.0.3",
+]
+
+[project.scripts]
+assignment3py = "assignment3py:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,51 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Build and distribution
+build/
+dist/
+*.egg
+
+# Testing and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Local Python version
+.python-version
