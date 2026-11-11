@@ -16,17 +16,17 @@ Each experiment was repeated 100 times to calculate average accuracy.
 
 **Dataset A**
 
-![Dataset A](dataset_A_accuracy.png)
+![Dataset A](results/dataset_A_accuracy.png)
 
 **Dataset B**
 
-![Dataset B](dataset_B_accuracy.png)
+![Dataset B](results/dataset_B_accuracy.png)
 
 **Exercise 3: L2 Regularization**
 
 Investigation of how different regularization strengths (λ = 0, 0.5, 10, 100) affect logistic regression weights.
 
-![Regularization Results](exercise3_weights.png)
+![Regularization Results](results/exercise3_weights.png)
 
 ## Technologies
 
